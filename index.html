@@ -1,79 +1,414 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Home - Mohammed Nabeel K P</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Nabeel K P — CSE Student &amp; Full-Stack Developer</title>
+  <meta name="description" content="Mohammed Nabeel K P is a B.Tech Computer Science and Engineering student at Government Engineering College Thrissur. He builds full-stack applications and campus software, including mess marking and hostel management systems." />
+  <meta name="author" content="Mohammed Nabeel K P" />
+  <link rel="canonical" href="https://nabeeljr11.github.io/nabeel-resume-website/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mohammed Nabeel K P — CSE Student &amp; Full-Stack Developer" />
+  <meta property="og:description" content="Portfolio of Mohammed Nabeel K P: full-stack campus software, mess marking PWA, and hostel management systems." />
+  <meta property="og:url" content="https://nabeeljr11.github.io/nabeel-resume-website/" />
+  <meta property="og:image" content="https://nabeeljr11.github.io/nabeel-resume-website/images/profile.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mohammed Nabeel K P — CSE Student &amp; Full-Stack Developer" />
+  <meta name="twitter:description" content="B.Tech CSE student at GECT building full-stack applications and real campus software." />
+  <meta name="twitter:image" content="https://nabeeljr11.github.io/nabeel-resume-website/images/profile.jpg" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23141210'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='22' fill='%23f3eee4'%3EN%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>document.documentElement.classList.add("js");</script>
+  <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
 <body>
-    <div id="header">
-        <div class="container">
-            <div id="nav">
-                <div class="logo">MNKP</div>
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.htm">About</a></li>
-                    <li><a href="projects.htm">Projects</a></li>
-                    <li><a href="MyWork.htm">My Work</a></li>
-                    <li><a href="contact.htm">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__label">View</span></div>
 
-    <div class="hero">
-        <div class="container">
-            <img src="images/profile.jpg" alt="Mohammed Nabeel K P" class="profile-image" />
-            <h1>MOHAMMED NABEEL K P</h1>
-            <h2>Computer Science &amp; Engineering Student</h2>
-            <p>Third-year B.Tech student in Computer Science and Engineering with proven experience building scalable enterprise systems and full-stack applications. Proficient in backend development and frontend engineering. Well-versed in the full development lifecycle: build, test, deploy, iterate. Excellent communication, problem solving, and client-facing experience.</p>
-            <div class="hero-buttons">
-                <a href="projects.htm" class="btn btn-primary">View My Projects</a>
-                <a href="resume.pdf" class="btn btn-secondary">Download Resume</a>
-            </div>
-        </div>
+  <header class="nav" id="site-nav">
+    <div class="nav__bar">
+      <a class="nav__logo" href="#home">MNKP</a>
+      <nav class="nav__links" aria-label="Primary">
+        <ul>
+          <li><a href="#home" data-section="home">Home</a></li>
+          <li><a href="#about" data-section="about">About</a></li>
+          <li><a href="#projects" data-section="projects">Projects</a></li>
+          <li><a href="#experience" data-section="experience">Experience</a></li>
+          <li><a href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="nav__resume" href="resume.pdf" download>Resume</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
     </div>
+    <div class="nav__mobile" id="mobile-menu" hidden>
+      <nav aria-label="Mobile">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="resume.pdf" download>Download Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <div id="main">
-        <div class="container">
-            <div class="section">
-                <h2>Quick Information</h2>
-                <div class="info-cards">
-                    <div class="info-card">
-                        <h3>B.Tech CSE</h3>
-                        <p>Computer Science and Engineering</p>
-                    </div>
-                    <div class="info-card">
-                        <h3>GECT</h3>
-                        <p>Government Engineering College Thrissur</p>
-                    </div>
-                    <div class="info-card">
-                        <h3>CGPA 7.67</h3>
-                        <p>Current Academic Performance</p>
-                    </div>
-                    <div class="info-card">
-                        <h3>Full-Stack Development</h3>
-                        <p>Backend &amp; Frontend Engineering</p>
-                    </div>
-                </div>
-            </div>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero__meta reveal">
+        <span class="status-dot" aria-hidden="true"></span>
+        Third-year · B.Tech CSE · GECT Thrissur
+      </div>
+      <h1 class="hero__title">
+        <span class="hero__line" data-split>Mohammed</span>
+        <span class="hero__line hero__line--accent" data-split>Nabeel K P</span>
+      </h1>
+      <div class="hero__bottom">
+        <p class="hero__role reveal">Computer Science &amp; Engineering Student</p>
+        <p class="hero__intro reveal">
+          I build full-stack applications and campus software that people actually use — from real-time meal marking to hostel operations — across the full lifecycle: build, test, deploy, iterate.
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--fill" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="resume.pdf" download>Download Resume</a>
+          <a class="btn btn--text" href="#contact">Contact Me</a>
         </div>
-    </div>
+      </div>
+      <a class="scroll-hint" href="#intro" aria-label="Scroll to introduction">
+        <span>Scroll</span>
+        <i></i>
+      </a>
+    </section>
 
-    <div id="footer">
-        <div class="container">
-            <p>&copy; 2026 Mohammed Nabeel K P</p>
-            <p>Computer Science &amp; Engineering</p>
-            <p>Government Engineering College Thrissur</p>
-            <div class="footer-nav">
-                <a href="index.html">Home</a>
-                <a href="about.htm">About</a>
-                <a href="projects.htm">Projects</a>
-                <a href="MyWork.htm">My Work</a>
-                <a href="contact.htm">Contact</a>
-            </div>
+    <section class="intro" id="intro">
+      <p class="section-kicker reveal">Introduction</p>
+      <h2 class="intro__statement reveal">
+        A Computer Science student focused on shipping <em>real software</em> for real campus problems.
+      </h2>
+      <div class="intro__meta reveal">
+        <div>
+          <span>Education</span>
+          <strong>B.Tech CSE, 2023–2027</strong>
         </div>
+        <div>
+          <span>College</span>
+          <strong>GECT Thrissur</strong>
+        </div>
+        <div>
+          <span>CGPA</span>
+          <strong>7.67</strong>
+        </div>
+        <div>
+          <span>Focus</span>
+          <strong>Full-stack development</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__grid">
+        <div class="about__media reveal">
+          <figure>
+            <img src="images/profile.jpg" alt="Portrait of Mohammed Nabeel K P" width="800" height="1000" />
+          </figure>
+          <p class="about__caption">Mohammed Nabeel K P · Malappuram, Kerala</p>
+        </div>
+        <div class="about__copy">
+          <p class="section-kicker reveal">Who I am</p>
+          <h2 class="about__heading reveal">Building software with care for the people who use it.</h2>
+          <p class="about__lead reveal">
+            Third-year B.Tech student in Computer Science and Engineering at Government Engineering College Thrissur, affiliated with APJ Abdul Kalam Technological University.
+          </p>
+          <p class="reveal">
+            I have experience building full-stack applications and operational systems, with strength in backend development and frontend engineering. I work through the full development lifecycle — build, test, deploy, iterate — and value clear communication, problem solving, and client-facing collaboration.
+          </p>
+          <div class="about__facts reveal">
+            <p><span>Base</span> Ramavarmapuram, Thrissur / Malappuram, Kerala</p>
+            <p><span>Nationality</span> Indian</p>
+            <p><span>Languages</span> English · Malayalam · Hindi · Arabic</p>
+            <p><span>Working style</span> Collaboration · Rapid prototyping · Public speaking · Adaptability · Leadership</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills" aria-labelledby="skills-title">
+      <div class="skills__head">
+        <p class="section-kicker reveal">Capabilities</p>
+        <h2 id="skills-title" class="reveal">A focused stack, used in production campus tools.</h2>
+      </div>
+      <div class="skills__list">
+        <article class="skill-group reveal">
+          <h3>Frontend</h3>
+          <ul>
+            <li data-note="Interface structure for web apps and portals">HTML</li>
+            <li data-note="Layout, typography, and responsive UI">CSS</li>
+            <li data-note="Client-side behaviour and application logic">JavaScript</li>
+            <li data-note="Used in the Mess Marking Web App">Next.js</li>
+            <li data-note="Frontend tooling and local development">Vite</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <h3>Backend</h3>
+          <ul>
+            <li data-note="Secure student login for campus apps">Firebase Authentication</li>
+            <li data-note="Used in the Hostel Mess Management System">Django</li>
+            <li data-note="Tooling and CI workflows">Node.js</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <h3>Programming</h3>
+          <ul>
+            <li data-note="Primary language across frontend and tooling">JavaScript</li>
+            <li data-note="Server-side application work with Django">Django</li>
+            <li data-note="Scripts, tooling, and GitHub Actions">Node.js</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <h3>Databases</h3>
+          <ul>
+            <li data-note="Real-time meal marking and analytics">Firestore (NoSQL)</li>
+            <li data-note="File and media storage with Firebase">Firebase Storage</li>
+            <li data-note="Relational data for hostel operations">PostgreSQL</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <h3>Tools</h3>
+          <ul>
+            <li data-note="Deploying production web apps">Firebase Hosting</li>
+            <li data-note="Automated build, test, and deploy pipelines">GitHub Actions (CI/CD)</li>
+          </ul>
+        </article>
+        <article class="skill-group reveal">
+          <h3>Other</h3>
+          <ul>
+            <li data-note="Email and password authentication">Firebase Auth</li>
+            <li data-note="Access control for stored data">Firestore Security Rules</li>
+            <li data-note="Separate access for students, clerks, and wardens">Role-based restrictions</li>
+            <li data-note="Controlled access to protected resources">Token-based access</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects__head">
+        <p class="section-kicker reveal">Selected work</p>
+        <h2 class="reveal">Projects built for campus life, not just coursework.</h2>
+      </div>
+
+      <article class="project project--a" data-cursor="view">
+        <div class="project__index reveal" aria-hidden="true">01</div>
+        <div class="project__visual reveal">
+          <div class="project-cover">
+            <span class="project-cover__num">01</span>
+            <span class="project-cover__tag">PWA · Completed</span>
+            <strong>Mess Marking</strong>
+            <em>Replace the register.</em>
+          </div>
+        </div>
+        <div class="project__body">
+          <p class="project__status reveal">Completed</p>
+          <h3 class="reveal">Mess Marking Web App</h3>
+          <p class="reveal">
+            A progressive web application for hostel students to mark daily meal preferences (B/L/S) digitally, replacing manual registers.
+          </p>
+          <p class="reveal">
+            Firebase Authentication handles secure student login. Firestore stores real-time meal marking and analytics. GitHub Actions automates CI/CD. The app is optimized for offline access, push notifications, and installable PWA support so it still works during network interruptions.
+          </p>
+          <p class="reveal">
+            The system improved mess workflow efficiency and reduced hostel food waste — a digital solution with a direct social impact.
+          </p>
+          <ul class="tech-row reveal">
+            <li>Next.js</li>
+            <li>Firebase</li>
+            <li>Firestore</li>
+            <li>Vite</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project project--b" data-cursor="view">
+        <div class="project__index reveal" aria-hidden="true">02</div>
+        <div class="project__visual reveal">
+          <div class="project-cover project-cover--alt">
+            <span class="project-cover__num">02</span>
+            <span class="project-cover__tag">Multi-portal · Ongoing</span>
+            <strong>Hostel Mess</strong>
+            <em>Operations, not paperwork.</em>
+          </div>
+        </div>
+        <div class="project__body">
+          <p class="project__status project__status--live reveal">Ongoing</p>
+          <h3 class="reveal">Hostel Mess Management System for GECT</h3>
+          <p class="reveal">
+            A multi-portal web application for hostel management, with separate interfaces for students, clerks, and wardens.
+          </p>
+          <ul class="feature-list reveal">
+            <li>Mess cut requests</li>
+            <li>Grievance handling</li>
+            <li>Bill generation</li>
+            <li>Online payments</li>
+          </ul>
+          <p class="reveal">
+            The system reduces manual work and paperwork, and is being continuously developed to make hostel management faster, more reliable, and easier to use.
+          </p>
+          <ul class="tech-row reveal">
+            <li>Django</li>
+            <li>PostgreSQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="experience__head">
+        <p class="section-kicker reveal">Experience / Work</p>
+        <h2 class="reveal">Leadership, competitions, and work beyond the classroom.</h2>
+      </div>
+      <div class="experience__list">
+        <details class="work-item reveal" open>
+          <summary>
+            <span class="work-item__year">3rd Year</span>
+            <span class="work-item__title">Qualified in GATE Examination</span>
+            <span class="work-item__org">Graduate Aptitude Test in Engineering</span>
+          </summary>
+          <p>Successfully qualified in the Graduate Aptitude Test in Engineering during the third year of B.Tech.</p>
+        </details>
+        <details class="work-item reveal">
+          <summary>
+            <span class="work-item__year">2025</span>
+            <span class="work-item__title">Team Lead — Smart India Hackathon 2025</span>
+            <span class="work-item__org">Smart India Hackathon</span>
+          </summary>
+          <p>Led a team in Smart India Hackathon 2025, combining leadership with technical problem-solving.</p>
+        </details>
+        <details class="work-item reveal">
+          <summary>
+            <span class="work-item__year">2024 — 2025</span>
+            <span class="work-item__title">Football — College Team</span>
+            <span class="work-item__org">GECT / APJAKTU</span>
+          </summary>
+          <ul>
+            <li>Won zonals title with the college team (2024, 2025)</li>
+            <li>Won interzone APJAKTU university title with the college team (2025)</li>
+          </ul>
+        </details>
+        <details class="work-item reveal">
+          <summary>
+            <span class="work-item__year">2024</span>
+            <span class="work-item__title">Media Committee</span>
+            <span class="work-item__org">Event coordination</span>
+          </summary>
+          <ul>
+            <li>IEDC GECT Summer Startup Festival in 2024</li>
+            <li>OASIS Pain and Palliative Club</li>
+          </ul>
+        </details>
+        <details class="work-item reveal">
+          <summary>
+            <span class="work-item__year">Campus</span>
+            <span class="work-item__title">Academic &amp; Project Work</span>
+            <span class="work-item__org">Full-stack systems for GECT hostels</span>
+          </summary>
+          <ul>
+            <li>Developed Mess Marking Web App using Next.js and Firebase</li>
+            <li>Building Hostel Mess Management System for GECT using Django</li>
+            <li>Implemented CI/CD pipelines with GitHub Actions</li>
+            <li>Contributed to reducing hostel food waste through digital solutions</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <p class="section-kicker reveal">Education</p>
+      <div class="education__panel reveal">
+        <p class="education__degree">Bachelor of Technology</p>
+        <h2>Computer Science and Engineering</h2>
+        <p class="education__school">Government Engineering College Thrissur</p>
+        <p class="education__meta">APJ Abdul Kalam Technological University · Ramavarmapuram, Thrissur</p>
+        <div class="education__stats">
+          <div>
+            <span>Duration</span>
+            <strong>2023 – 2027</strong>
+          </div>
+          <div>
+            <span>CGPA</span>
+            <strong>7.67</strong>
+          </div>
+          <div>
+            <span>Year</span>
+            <strong>Third-year</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="section-kicker reveal">Contact</p>
+      <h2 class="contact__title">
+        <span class="reveal" data-split>Let’s build</span>
+        <span class="reveal contact__title-italic" data-split>something useful.</span>
+      </h2>
+      <p class="contact__lead reveal">
+        Reach out for collaborations, project discussions, or anything in Computer Science and Engineering. I am always open to connecting with fellow developers.
+      </p>
+      <div class="contact__links">
+        <a class="contact-link reveal" href="mailto:mohdnabeel2pc@gmail.com">
+          <span>Email</span>
+          <strong>mohdnabeel2pc@gmail.com</strong>
+        </a>
+        <a class="contact-link reveal" href="tel:+919895335696">
+          <span>Phone</span>
+          <strong>+91 98953 35696</strong>
+        </a>
+        <a class="contact-link reveal" href="https://github.com/nabeeljr11" target="_blank" rel="noopener noreferrer">
+          <span>GitHub</span>
+          <strong>nabeeljr11</strong>
+        </a>
+        <p class="contact-link contact-link--static reveal">
+          <span>Location</span>
+          <strong>Malappuram, Kerala, India</strong>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div>
+        <strong>Mohammed Nabeel K P</strong>
+        <p>CSE / Full-Stack Developer</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="mailto:mohdnabeel2pc@gmail.com">Email</a>
+        <a href="https://github.com/nabeeljr11" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="resume.pdf" download>Resume</a>
+        <a href="#home">Back to top</a>
+      </nav>
     </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Mohammed Nabeel K P</p>
+      <p>Government Engineering College Thrissur</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
 </body>
 </html>
